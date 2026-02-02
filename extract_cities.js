@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const targetDir = String.raw`C:\Users\eric\Downloads\DSTAR\Icom ID 50 Repeater lists`;
+const targetDir = process.cwd();
 const files = fs.readdirSync(targetDir).filter(f => f.endsWith('.csv') && !f.includes('Master'));
 
 const locations = new Set();

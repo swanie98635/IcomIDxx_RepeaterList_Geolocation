@@ -8,20 +8,23 @@ A collection of utilities to process RepeaterBook CSV exports, extract location 
 - **Normalization**: Cleans up city names and handles formatting inconsistencies.
 - **Preparation**: Prepares data for geocoding (Lat/Lon lookup) to ensure accurate "Nearest Repeater" functionality on your radio.
 
-## Prerequisites
+## Installation
 
-- [Node.js](https://nodejs.org/) (Version 14+ recommended)
+1.  **Install Node.js**:
+    *   **Windows**: Download the installer from [nodejs.org](https://nodejs.org/) and run it.
+    *   **Mac**: Download from [nodejs.org](https://nodejs.org/) or use Homebrew: `brew install node`
+    *   **Linux**: Use your package manager (e.g., `sudo apt install nodejs`) or [install via nvm](https://github.com/nvm-sh/nvm).
+2.  **Dependencies**:
+    Currently, this tool uses only standard Node.js libraries (`fs`, `path`). No extra `npm install` is required yet.
 
-## Setup
+## OS Compatibility
 
-1.  Clone this repository:
-    ```bash
-    git clone https://github.com/swanie98635/IcomIDxx_RepeaterList_Geolocation.git
-    cd IcomIDxx_RepeaterList_Geolocation
-    ```
+This tool is cross-platform and works on **Windows**, **macOS**, and **Linux**.
 
-2.  **Configuration**:
-    The script looks for CSV files in the **current directory**. No path configuration is needed.
+*   **Windows**: Open "Command Prompt" or "PowerShell". Navigate to the folder and run the commands.
+*   **Mac/Linux**: Open "Terminal". Navigate to the folder and run the commands.
+
+## Workflow
 
 ## Usage
 
